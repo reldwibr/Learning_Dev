@@ -1,46 +1,33 @@
-p {
-    color: green;
-}
-
-body {
-    color: green;
-    background-color: black;
-}
-
-nav {
-    background-color: indianred;
-    height: 20px;
-    text-align: center;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
 header {
+    height: auto;
     text-align: center;
-    height: 80px;
 }
 
-#div_esquerda {
-    min-height: auto;
-    width: 67%;
-    float: left;
+*{
+    font-family: Garamond;
+    color: burlywood;
 }
 
-#div_direita {
-    min-height: auto;
-    width: 33%;
-    float: right;
+#main {
+    background-image: url("dev.jpg");
+    background-position: center;
+    background-color: #cccccc;
+    background-size: cover;
+    min-height: 400px;
+    text-align: center;
+    font-size: 40px;
+    padding: 200px 0 0 0;
+
+}
+
+@font-face {
+    font-family: Garamond;
+    src: url(Garamond.ttf);
 }
 
 footer {
-    text-align: center;
     clear: both;
-}
-
-.container {
-    width: 999px;
-    margin: 0 auto;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
 }
